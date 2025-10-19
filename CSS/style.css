@@ -1,0 +1,157 @@
+
+
+  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    background-color: #c2f32f;
+    text-align: center;
+    font-size: 40px;
+    padding: 15px;
+}
+
+/* Header Section */
+header {
+  background: linear-gradient(90deg, #f6d365, #fda085);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 50px;
+}
+
+header img {
+  height: 80px;
+  width: auto;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+header img:hover {
+  transform: scale(1.1);
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #222;
+  background-color: green;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+
+/* Banner Section */
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  background-color: #c2f32f;
+  padding: 30px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+
+
+/* Product section */
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  padding: 0 60px 60px;
+}
+
+.product {
+  background: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.product img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.btn {
+  background: #e91e63;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #2f08c9;
+}
+
+
+/* Footer section */
+footer {
+    background: linear-gradient(90deg, #f6d365, #fda085);
+    padding: 40px 20px;
+    text-align: center;
+    color: #222;
+    margin-top: 40px;
+    font-family: "Poppins", sans-serif;
+}
+
+footer h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+footer .socials a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+footer .socials a:hover {
+    transform: scale(1.2);
+}
+
+
